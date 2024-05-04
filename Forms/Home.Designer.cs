@@ -41,7 +41,9 @@
             tồnKhoToolStripMenuItem = new ToolStripMenuItem();
             thốngKêToolStripMenuItem = new ToolStripMenuItem();
             đăngXuấtToolStripMenuItem = new ToolStripMenuItem();
+            pictureBox1 = new PictureBox();
             menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // menuStrip1
@@ -50,7 +52,7 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { hệThốngToolStripMenuItem, quảnLýToolStripMenuItem, phiếuBánHàngToolStripMenuItem, nhậpKhoToolStripMenuItem, tồnKhoToolStripMenuItem, thốngKêToolStripMenuItem, đăngXuấtToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(696, 28);
+            menuStrip1.Size = new Size(663, 28);
             menuStrip1.TabIndex = 2;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -128,17 +130,28 @@
             đăngXuấtToolStripMenuItem.Size = new Size(91, 24);
             đăngXuấtToolStripMenuItem.Text = "Đăng xuất";
             // 
+            // pictureBox1
+            // 
+            pictureBox1.BackgroundImage = Properties.Resources.pngtree_shop_cartoon_png_image_6403796;
+            pictureBox1.Location = new Point(0, 31);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(663, 560);
+            pictureBox1.TabIndex = 3;
+            pictureBox1.TabStop = false;
+            // 
             // Home
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(696, 450);
+            ClientSize = new Size(663, 603);
+            Controls.Add(pictureBox1);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
             Name = "Home";
             Text = "Home";
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -158,5 +171,6 @@
         private ToolStripMenuItem tồnKhoToolStripMenuItem;
         private ToolStripMenuItem thốngKêToolStripMenuItem;
         private ToolStripMenuItem đăngXuấtToolStripMenuItem;
+        private PictureBox pictureBox1;
     }
 }
