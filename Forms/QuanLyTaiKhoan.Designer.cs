@@ -51,7 +51,7 @@
             button1.Name = "button1";
             button1.Size = new Size(94, 29);
             button1.TabIndex = 5;
-            button1.Text = "button1";
+            button1.Text = "Thêm";
             button1.UseVisualStyleBackColor = true;
             // 
             // button2
@@ -60,7 +60,7 @@
             button2.Name = "button2";
             button2.Size = new Size(94, 29);
             button2.TabIndex = 6;
-            button2.Text = "button2";
+            button2.Text = "Sửa";
             button2.UseVisualStyleBackColor = true;
             // 
             // button3
@@ -69,7 +69,7 @@
             button3.Name = "button3";
             button3.Size = new Size(94, 29);
             button3.TabIndex = 7;
-            button3.Text = "button3";
+            button3.Text = "Xóa";
             button3.UseVisualStyleBackColor = true;
             // 
             // button4
@@ -78,7 +78,7 @@
             button4.Name = "button4";
             button4.Size = new Size(94, 29);
             button4.TabIndex = 8;
-            button4.Text = "button4";
+            button4.Text = "Thoát";
             button4.UseVisualStyleBackColor = true;
             // 
             // QuanLyTaiKhoan
